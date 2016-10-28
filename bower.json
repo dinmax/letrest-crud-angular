@@ -1,7 +1,7 @@
 {
   "name": "letrest-crud-angular",
   "license": "MIT",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "ignore": [
     ".gitignore",
     "README.md"

@@ -540,11 +540,13 @@ input.crud-control.ng-touched.ng-invalid,
     padding: 7px 5px 0px 5px;
     vertical-align: top;
 }
+.crud-table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
 .crud-table {
     width: 100%;
-    display: block;
-    overflow-x: auto;
-    padding-bottom: 0.5em;
 }
 .crud-table.selectable {
 
