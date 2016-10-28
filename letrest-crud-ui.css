@@ -266,7 +266,6 @@
 
 .crud-footer{
   width: inherit;
-   
   /*text-align: -webkit-right;*/
 }
 
@@ -543,6 +542,9 @@ input.crud-control.ng-touched.ng-invalid,
 }
 .crud-table {
     width: 100%;
+    display: block;
+    overflow-x: auto;
+    padding-bottom: 0.5em;
 }
 .crud-table.selectable {
 
