@@ -535,50 +535,61 @@ input.crud-control.ng-touched.ng-invalid,
 }
 
 .crud-table-container {
-    width: 100%;
-    display: inline-block;
-    padding: 7px 5px 0px 5px;
-    vertical-align: top;
+  width: 100%;
+  display: inline-block;
+  padding: 7px 5px 0px 5px;
+  vertical-align: top;
 }
+
 .crud-table-wrapper {
-    width: 100%;
-    overflow-x: auto;
+  width: 100%;
+  overflow-x: auto;
 }
 
 .crud-table {
-    width: 100%;
+  width: 100%;
 }
+
 .crud-table.selectable {
 
 }
+
 .crud-table.selectable tbody tr:hover {
-    cursor:pointer !important;
-    background-color: #00b3ee!important;
+  cursor: pointer !important;
+  background-color: #00b3ee !important;
 }
 
 .crud-table.selectable tbody tr:hover {
-    cursor:pointer !important;
-    background-color: #00c492!important;
-    color: #ffffff;
+  cursor: pointer !important;
+  background-color: #00c492 !important;
+  color: #ffffff;
 }
 
 .crud-table.selectable tbody tr.crud-tr-selected {
-    cursor:pointer !important;
-    background-color: #00c492!important;
-    color: #ffffff;
+  cursor: pointer !important;
+  background-color: #00c492 !important;
+  color: #ffffff;
 }
 
 .crud-table-container.editing {
-    width: 45% !important;
-    padding: 7px 0px 0px 5px;
+  width: 45% !important;
+  padding: 7px 0px 0px 5px;
 }
 
 .crud-table th {
-    color: #777
+  color: #777
 }
 
-.crud-odd-row{
+.crud-odd-row {
 
   background-color: #F2F2F2 !important;
   color: #333;
+}
+
+.crud-number-th {
+  text-align: center;
+}
+
+.crud-number-td {
+  text-align: right;
 }
